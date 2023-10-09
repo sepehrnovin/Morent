@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body class="bg-gray">
+    <header class="container bg-white p-3 ">
+        <div class="row">
+            <div class="col-xl-2 mt-3">
+                <h3 class="text-blue font-weight-bold">MORENT</h3>
+            </div>
+            <div class="col-xl-6 d-flex search-box midle">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button class="btn bg-transparent border-right-0 border-gray rounded-left border-radius-20pxl" type="button">
+                        <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #e8eaee;"></i>
+                      </button>
+                    </div>
+                    <input type="text" class="form-control border-left-0 border-right-0 border-gray p-4" placeholder="Search Something here" aria-label="" aria-describedby="basic-addon1">
+                    <div class="input-group-prepend">
+                        <button class="btn bg-transparent border-left-0 border-gray border-radius-20px " type="button">
+                            <i class="fa-solid fa-sliders fa-xl" style="color: #8c8c8c;"></i>
+                        </button>
+                      </div>
+                  </div>
+                  
+            </div>
+            <div class="col-xl-4">
+                <div class="row logo mb-3">
+                    <div class="col-xl-3 text-right p-0">
+                        <a href="">
+                        <i class="fa-solid fa-gear" style="color: #596780;"></i>
+                    </a>
+                    </div>
+                    <div class="col-xl-3 text-center p-0">
+                        <a href="">
+                        <i class="fa-solid fa-bell " style="color: #596780;"></i>
+                    </a>
+                    </div>
+                    <div class="col-xl-3 p-0">
+                        <a href="">
+                        <i class="fa-solid fa-heart " style="color: #596780;"></i>
+                    </a>
+                    </div>
+                    <div class="col-xl-3 profile">
+                        <a href="">
+                        <img src="images/Imageprofile.png " class="w-100" alt="">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <div class="row">
+        <div class="col-xl-25 bg-white p-4">
+            <h5 class="text-muted">TYPE</h5>
+            <div >
+                <div class="form-check">
+                    <input class="form-check-input big-radio" type="checkbox" value="" id="flexCheckDefault" >
+                    <label class="form-check-label text-elephent ml-2 d-flex" for="flexCheckDefault">
+                        Sport<p class="text-mute">(2)</p>
+                    </label>
+                  </div>
+                  <div class="form-check mt-2">
+                    <input class="form-check-input big-radio" type="checkbox" value="" id="flexCheckDefault" >
+                    <label class="form-check-label text-elephent ml-2 d-flex" for="flexCheckDefault">
+                        Sedan<p class="text-mute">(1)</p>
+                    </label>
+                  </div>
+                  <div class="form-check mt-2">
+                    <input class="form-check-input big-radio" type="checkbox" value="" id="flexCheckDefault" >
+                    <label class="form-check-label text-elephent ml-2 d-flex" for="flexCheckDefault">
+                        SUV<p class="text-mute">(4)</p>
+                    </label>
+                  </div>
+                  <div class="form-check mt-2">
+                    <input class="form-check-input big-radio" type="checkbox" value="" id="flexCheckDefault" >
+                    <label class="form-check-label text-elephent ml-2 d-flex" for="flexCheckDefault">
+                        Hatchback<p class="text-mute">(1)</p>
+                    </label>
+                  </div>
+                 
+                  
+            </div>
+            
+        </div>
+        <div class="col-xl-95 ">
+            <section class=" p-4 ">
+                <div class="row gap-25">
+                    <div class="col-xl-52 ml-1 rounded p-4 bg-white">
+                        <div class="d-flex sec1">
+                            <i class="fa-solid fa-circle fa-beat fa-2xs mt-custome " style="color: #3563E9;"></i>
+                            <h5>Pick - Up</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 border-right">
+                                <h4 class="font-weight-bold font-20">Locations</h4>
+                                <div class="dropdown">
+                                    <a href="#" class=" bg-transparent text-muted text- dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Select your city
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <button class="dropdown-item" type="button">Action</button>
+                                      <button class="dropdown-item" type="button">Another action</button>
+                                      <button class="dropdown-item" type="button">Something else here</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-xl-4 border-right">
+                                <h4 class="font-weight-bold font-20">Date</h4>
+                                <div class="dropdown">
+                                    <a href="#" class=" bg-transparent text-muted text- dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Select your date
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <button class="dropdown-item" type="button">Action</button>
+                                      <button class="dropdown-item" type="button">Another action</button>
+                                      <button class="dropdown-item" type="button">Something else here</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <h4 class="font-weight-bold font-20">Time</h4>
+                                <div class="dropdown">
+                                    <a href="#" class=" bg-transparent text-muted text- dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Select your time
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <button class="dropdown-item" type="button">Action</button>
+                                      <button class="dropdown-item" type="button">Another action</button>
+                                      <button class="dropdown-item" type="button">Something else here</button>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="col-xl-52 rounded p-4 bg-white">
+                        <div class="d-flex sec1">
+                            <i class="fa-solid fa-circle fa-beat fa-2xs mt-custome " style="color: #3563E9;"></i>
+                            <h5>Drop - Off</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 border-right">
+                                <h5 class="font-weight-bold font-20">Locations</h5>
+                                <div class="dropdown">
+                                    <a href="#" class=" bg-transparent text-muted text- dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Select your city
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <button class="dropdown-item" type="button">Action</button>
+                                      <button class="dropdown-item" type="button">Another action</button>
+                                      <button class="dropdown-item" type="button">Something else here</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-xl-4 border-right">
+                                <h4 class="font-weight-bold font-20">Date</h4>
+                                <div class="dropdown">
+                                    <a href="#" class=" bg-transparent text-muted text- dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Select your date
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <button class="dropdown-item" type="button">Action</button>
+                                      <button class="dropdown-item" type="button">Another action</button>
+                                      <button class="dropdown-item" type="button">Something else here</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <h4 class="font-weight-bold font-20">Time</h4>
+                                <div class="dropdown">
+                                    <a href="#" class=" bg-transparent text-muted text- dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Select your time
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <button class="dropdown-item" type="button">Action</button>
+                                      <button class="dropdown-item" type="button">Another action</button>
+                                      <button class="dropdown-item" type="button">Something else here</button>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </section>
+            <a href="">
+                <div class="up-down1 bg-blue ">
+                    <i class="fa-solid fa-arrows-up-down fa-xl" style="color: #ffffff;"></i>
+                </div>
+            </a>
+        </div>
+        </div>
+        <div class="row gap-20">
+            <div class="col-xl-25 bg-white p-4">
+                <h5 class="text-muted">CAPACITY</h5>
+            <div class="mt-4">
+                <div class="form-check">
+                    <input class="form-check-input big-radio" type="checkbox" value="" id="flexCheckDefault" >
+                    <label class="form-check-label text-elephent ml-2 d-flex" for="flexCheckDefault">
+                        2 People<p class="text-mute">(2)</p>
+                    </label>
+                  </div>
+                  <div class="form-check mt-2">
+                    <input class="form-check-input big-radio" type="checkbox" value="" id="flexCheckDefault" >
+                    <label class="form-check-label text-elephent ml-2 d-flex" for="flexCheckDefault">
+                        4 People<p class="text-mute">(1)</p>
+                    </label>
+                  </div>
+                  <div class="form-check mt-2">
+                    <input class="form-check-input big-radio" type="checkbox" value="" id="flexCheckDefault" >
+                    <label class="form-check-label text-elephent ml-2 d-flex" for="flexCheckDefault">
+                        6 People<p class="text-mute">(5)</p>
+                    </label>
+                  </div>
+                 
+                 
+                  
+            </div>
+            </div>
+            <div class="col-xl-3 bg-white p-3 rounded">
+                <div class="d-flex justify-content-between">
+                    <h5 class="font-weight-bold">Koenigsegg</h5>
+                    <a href="">
+                    <i class="fa-regular fa-heart" style="color: #596780;"></i>
+                </a>
+                </div>
+                <p class="text-muted">Sport Car</p>
+                <img src="images/car1.png" class="w-100 mt-4" alt="">
+                <div class="row mt-2">
+                    <div class="col-xl-3">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-gas-pump mt-1" style="color: #596780;"></i>
+                            <p>80L</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-car mt-1" style="color: #596780;"></i>
+                            <p>Manual</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-users mt-1" style="color: #596780;"></i>
+                            <p>2 People</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-xl-6 d-flex p-0 justify-content-end mt-1">
+                        <h5 class="text-black font-weight-bold">$99.00/</h5>
+                        <p class="text-muted font-18">day</p>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <button type="button" class="btn btn-primary">Rent now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 bg-white p-3 rounded">
+               <div class="d-flex justify-content-between">
+                <h5 class="font-weight-bold">Nissan GT - R</h5>
+                <a href="">
+                <i class="fa-regular fa-heart" style="color: #596780;"></i>
+            </a>
+            </div>
+            <p class="text-muted">Sport Car</p>
+            <img src="images/car2.png" class="w-100 mt-4" alt="">
+            <div class="row mt-2">
+                <div class="col-xl-3">
+                    <div class="d-flex gap-5">
+                        <i class="fa-solid fa-gas-pump mt-1" style="color: #596780;"></i>
+                        <p>90L</p>
+                    </div>
+                    
+                </div>
+                <div class="col-xl-4">
+                    <div class="d-flex gap-5">
+                        <i class="fa-solid fa-car mt-1" style="color: #596780;"></i>
+                        <p>Manual</p>
+                    </div>
+                    
+                </div>
+                <div class="col-xl-5">
+                    <div class="d-flex gap-5">
+                        <i class="fa-solid fa-users mt-1" style="color: #596780;"></i>
+                        <p>2 People</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-xl-6 d-flex p-0 justify-content-end mt-1">
+                    <h5 class="text-black font-weight-bold">$80.00/</h5>
+                    <p class="text-muted font-18">day</p>
+                </div>
+                <div class="col-xl-6 mb-5">
+                    <button type="button" class="btn btn-primary">Rent now</button>
+                </div>
+            </div>
+            </div>
+            <div class="col-xl-3 bg-white p-3 rounded">
+                <div class="d-flex justify-content-between">
+                    <h5 class="font-weight-bold">Rolls - Royce</h5>
+                    <a href="">
+                    <i class="fa-regular fa-heart" style="color: #596780;"></i>
+                </a>
+                </div>
+                <p class="text-muted">Sedan</p>
+                <img src="images/car3.png" class="w-100 mt-4" alt="">
+                <div class="row mt-2">
+                    <div class="col-xl-3">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-gas-pump mt-1" style="color: #596780;"></i>
+                            <p>70L</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-car mt-1" style="color: #596780;"></i>
+                            <p>Manual</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-users mt-1" style="color: #596780;"></i>
+                            <p>4 People</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-xl-6 d-flex p-0 justify-content-end mt-1">
+                        <h5 class="text-black font-weight-bold">$96.00/</h5>
+                        <p class="text-muted font-18">day</p>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <button type="button" class="btn btn-primary">Rent now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row gap-20">
+            <div class="col-xl-25 bg-white">
+                
+            </div>
+            <div class="col-xl-3 bg-white mt-4 p-3 rounded">
+                <div class="d-flex justify-content-between">
+                    <h5 class="font-weight-bold">All New Rush</h5>
+                    <a href="">
+                    <i class="fa-regular fa-heart" style="color: #596780;"></i>
+                </a>
+                </div>
+                <p class="text-muted">SUV</p>
+                <img src="images/car-1.png" class="w-100 mt-4" alt="">
+                <div class="row mt-2">
+                    <div class="col-xl-3">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-gas-pump mt-1" style="color: #596780;"></i>
+                            <p>70L</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-car mt-1" style="color: #596780;"></i>
+                            <p>Manual</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-users mt-1" style="color: #596780;"></i>
+                            <p>6 People</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-xl-6 d-flex p-0 justify-content-end mt-1">
+                        <h5 class="text-black font-weight-bold">$72.00/</h5>
+                        <p class="text-muted font-18">day</p>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <button type="button" class="btn btn-primary">Rent now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 bg-white mt-4 p-3 rounded">
+                <div class="d-flex justify-content-between">
+                    <h5 class="font-weight-bold">CR - V</h5>
+                    <a href="">
+                    <i class="fa-regular fa-heart" style="color: #596780;"></i>
+                </a>
+                </div>
+                <p class="text-muted">SUV</p>
+                <img src="images/car-1.png" class="w-100 mt-4" alt="">
+                <div class="row mt-2">
+                    <div class="col-xl-3">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-gas-pump mt-1" style="color: #596780;"></i>
+                            <p>80L</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-car mt-1" style="color: #596780;"></i>
+                            <p>Manual</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-users mt-1" style="color: #596780;"></i>
+                            <p>6 People</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-xl-6 d-flex p-0 justify-content-end mt-1">
+                        <h5 class="text-black font-weight-bold">$80.00/</h5>
+                        <p class="text-muted font-18">day</p>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <button type="button" class="btn btn-primary">Rent now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 bg-white mt-4 p-3 rounded">
+                <div class="d-flex justify-content-between">
+                    <h5 class="font-weight-bold">All New Terios</h5>
+                    <a href="">
+                    <i class="fa-regular fa-heart" style="color: #596780;"></i>
+                </a>
+                </div>
+                <p class="text-muted">SUV</p>
+                <img src="images/car-1.png" class="w-100 mt-4" alt="">
+                <div class="row mt-2">
+                    <div class="col-xl-3">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-gas-pump mt-1" style="color: #596780;"></i>
+                            <p>90L</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-car mt-1" style="color: #596780;"></i>
+                            <p>Manual</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-users mt-1" style="color: #596780;"></i>
+                            <p>6 People</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-xl-6 d-flex p-0 justify-content-end mt-1">
+                        <h5 class="text-black font-weight-bold">$74.00/</h5>
+                        <p class="text-muted font-18">day</p>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <button type="button" class="btn btn-primary">Rent now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row gap-20">
+            <div class="col-xl-25 bg-white">
+
+            </div>
+            <div class="col-xl-3 bg-white mt-4 p-3 rounded">
+                <div class="d-flex justify-content-between">
+                    <h5 class="font-weight-bold">New MG ZS</h5>
+                    <a href="">
+                    <i class="fa-regular fa-heart" style="color: #596780;"></i>
+                </a>
+                </div>
+                <p class="text-muted">SUV</p>
+                <img src="images/car-4.png" class="w-100 mt-4" alt="">
+                <div class="row mt-2">
+                    <div class="col-xl-3">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-gas-pump mt-1" style="color: #596780;"></i>
+                            <p>80L</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-car mt-1" style="color: #596780;"></i>
+                            <p>AUTO</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-users mt-1" style="color: #596780;"></i>
+                            <p>6 People</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-xl-6 d-flex p-0 justify-content-end mt-1">
+                        <h5 class="text-black font-weight-bold">$80.00/</h5>
+                        <p class="text-muted font-18">day</p>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <button type="button" class="btn btn-primary">Rent now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 bg-white mt-4 p-3 rounded">
+                <div class="d-flex justify-content-between">
+                    <h5 class="font-weight-bold">MG ZX Exclusive</h5>
+                    <a href="">
+                    <i class="fa-regular fa-heart" style="color: #596780;"></i>
+                </a>
+                </div>
+                <p class="text-muted">SUV</p>
+                <img src="images/car-4.png" class="w-100 mt-4" alt="">
+                <div class="row mt-2">
+                    <div class="col-xl-3">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-gas-pump mt-1" style="color: #596780;"></i>
+                            <p>80L</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-car mt-1" style="color: #596780;"></i>
+                            <p>Manual</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="d-flex gap-5">
+                            <i class="fa-solid fa-users mt-1" style="color: #596780;"></i>
+                            <p>6 People</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-xl-6 d-flex p-0 justify-content-end mt-1">
+                        <h5 class="text-black font-weight-bold">$72.00/</h5>
+                        <p class="text-muted font-18">day</p>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <button type="button" class="btn btn-primary">Rent now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-25 bg-white">
+
+            </div>
+            <div class="col-xl-55 p-0 d-flex justify-content-end mt-5 mb-5">
+                <a href="index.html">
+                <button type="button" class="btn btn-primary">Show More Car</button>
+            </a>
+            </div>
+            <div class="col-xl-3 p-0 d-flex justify-content-end mt-5 mb-5">
+                <h5 class="text-muted font-weight-bold">120 Car</h5>
+            </div>
+        </div>
+    </section>
+    <footer class="container rounded-top bg-white  p-5">
+        <div class="row">
+            <div class="col-xl-6">
+                <h3 class="text-blue font-weight-bold">MORENT</h3>
+                <p class="text-muted w-75">Our vision is to provide convenience
+                    and help increase your sales business.</p>
+            </div>
+            <div class="col-xl-2">
+                <h4 class=" font-weight-bold">About</h4>
+                <h6 class="font-weight-bold text-muted mt-45">How it works</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Featured</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Partnership</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Bussiness Relation</h6>
+            </div>
+            <div class="col-xl-2">
+                <h4 class=" font-weight-bold">Socials</h4>
+                <h6 class="font-weight-bold text-muted mt-45">Discord</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Instagram</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Twitter</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Facebook Relation</h6>
+            </div>
+            <div class="col-xl-2">
+                <h4 class=" font-weight-bold">Commiunity</h4>
+                <h6 class="font-weight-bold text-muted mt-45">Events</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Blog</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Podcast</h6>
+                <h6 class="font-weight-bold text-muted mt-4">Invite a friend</h6>
+            </div>
+        </div>
+        <div class="row mt-5 border-top">
+            <div class="col-xl-6 mt-5">
+                <div class="row">
+                <div class="col-xl-4">
+                    <h6 class="font-18 font-weight-bold">Privacy & Policy</h6>
+                </div>
+                <div class="col-xl-6">
+                    <h6 class="font-18 font-weight-bold">Terms & Condition</h6>
+                </div>
+            </div>
+            </div>
+            <div class="col-xl-6 mt-5 text-right">
+                <h6 class="font-18 font-weight-bold">©2023 MORENT. All rights reserved</h6>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
